@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Марина — 15+ лет опыта главного бухгалтера</title>
+<meta name="description" content="15+ лет опыта главного бухгалтера: бухгалтерский, налоговый и кадровый учёт от первички до сдачи отчётности. Опыт работы, кейсы автоматизации и применения нейросетей в учёте.">
+<meta name="theme-color" content="#F4EFE8">
+<link rel="canonical" href="https://neurobuh-collab.github.io/vizitka_v2/">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Марина · бухгалтер">
+<meta property="og:title" content="Марина — 15+ лет опыта главного бухгалтера">
+<meta property="og:description" content="Бухгалтерский, налоговый и кадровый учёт от первички до сдачи отчётности. Опыт работы, кейсы автоматизации и применения нейросетей в учёте.">
+<meta property="og:image" content="https://neurobuh-collab.github.io/vizitka_v2/assets/portrait.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<script>
+(function (d) {
+  d.classList.replace('no-js', 'js');
+  try {
+    if (sessionStorage.getItem('intro-seen')) d.classList.add('no-intro');
+    else sessionStorage.setItem('intro-seen', '1');
+  } catch (e) { d.classList.add('no-intro'); }
+  /* страховка: script.js первой строкой ставит html.js-ready; если его нет через 3,5 с после load —
+     скрипт не загрузился/упал, возвращаем no-js, чтобы контент не остался скрытым */
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      if (!d.classList.contains('js-ready')) { d.classList.remove('js'); d.classList.add('no-js'); }
+    }, 3500);
+  });
+})(document.documentElement);
+</script>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/hero-poster.jpg" as="image">
+<link rel="preload" href="assets/fonts/cormorant-garamond-cyrillic-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/cormorant-garamond-cyrillic-500-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-cyrillic-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts.css?v=2">
+<link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Перейти к&nbsp;содержимому</a>
+
+<!-- Заставка (первый визит за сессию) -->
+<div class="intro" aria-hidden="true">
+  <div class="intro__inner">
+    <span class="intro__name">
+      <span class="intro__word"><span class="intro__ch" style="--i:0">М</span><span class="intro__ch" style="--i:1">а</span><span class="intro__ch" style="--i:2">р</span><span class="intro__ch" style="--i:3">и</span><span class="intro__ch" style="--i:4">н</span><span class="intro__ch" style="--i:5">а</span></span>
+      <span class="intro__word"><span class="intro__ch intro__ch--it" style="--i:6">Ч</span><span class="intro__ch intro__ch--it" style="--i:7">а</span><span class="intro__ch intro__ch--it" style="--i:8">т</span><span class="intro__ch intro__ch--it" style="--i:9">ы</span><span class="intro__ch intro__ch--it" style="--i:10">е</span><span class="intro__ch intro__ch--it" style="--i:11">в</span><span class="intro__ch intro__ch--it" style="--i:12">а</span></span>
+    </span>
+    <span class="intro__line"></span>
+  </div>
+</div>
+
+<div class="progress" aria-hidden="true"><span class="progress__bar"></span></div>
+
+<div class="cursor" aria-hidden="true"><span class="cursor__ring"></span><span class="cursor__dot"></span></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="wordmark" href="#top" aria-label="Марина Чатыева, бухгалтер — на главную">
+      <span class="wordmark__text"><span class="wordmark__neuro">Марина Чатыева</span><span class="wordmark__buh"> · бухгалтер</span></span>
+    </a>
+
+    <button class="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#about" data-roll style="--i:0">Обо мне</a>
+      <a href="#experience" data-roll style="--i:1">Опыт</a>
+      <a href="#services" data-roll style="--i:2">Чем могу помочь</a>
+      <a href="#cases" data-roll style="--i:3">Кейсы</a>
+      <a href="#reviews" data-roll style="--i:4">Отзывы</a>
+      <a class="nav__cta" href="#contacts" data-roll style="--i:5">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- 1. HERO -->
+  <section class="hero" id="top" data-hero-parallax>
+    <div class="hero__media" data-hero-parallax="media">
+      <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="assets/hero-poster.jpg" width="1280" height="720">
+        <source src="assets/hero.mp4" type="video/mp4" media="(prefers-reduced-motion: no-preference)">
+      </video>
+    </div>
+    <div class="hero__veil" aria-hidden="true"></div>
+    <div class="hero__blinds" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+    <div class="container hero__inner" data-hero-parallax="content">
+      <h1 class="hero__title" data-split>Бухгалтерия, которой <em class="hero__accent">доверяют<svg class="hero__swash" viewBox="0 0 360 40" fill="none" aria-hidden="true" focusable="false"><path data-draw d="M6 27C70 13 150 7 228 11c52 3 96 10 126 19" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path data-draw d="M64 33c60-8 130-11 196-6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></em></h1>
+
+      <div class="hero__foot">
+        <p class="hero__lead">Меня зовут Марина. У&nbsp;меня больше 15&nbsp;лет опыта работы главным бухгалтером: веду бухгалтерский, налоговый и&nbsp;кадровый учёт от&nbsp;первички до&nbsp;сдачи отчётности. Люблю, когда рутина делается быстрее, поэтому автоматизирую повторяющиеся задачи, в&nbsp;том числе с&nbsp;помощью нейросетей.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#contacts" data-magnetic data-roll>Связаться со мной</a>
+          <a class="btn btn--ghost" href="#experience" data-magnetic data-roll aria-label="Посмотреть опыт">Посмотреть опыт ↓</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true"><span class="hero__scroll-line"></span></div>
+  </section>
+
+  <!-- 2. MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span class="marquee__item"><span>Бухгалтерский учёт</span><i>·</i><span>Налоговый учёт</span><i>·</i><span>Кадровый учёт</span><i>·</i><span>1С:Бухгалтерия</span><i>·</i><span>1С:ЗУП</span><i>·</i><span>ЭДО</span><i>·</i><span>КЭДО</span><i>·</i><span>Due&nbsp;Diligence</span><i>·</i><span>Нейросети</span><i>·</i></span>
+      <span class="marquee__item"><span>Бухгалтерский учёт</span><i>·</i><span>Налоговый учёт</span><i>·</i><span>Кадровый учёт</span><i>·</i><span>1С:Бухгалтерия</span><i>·</i><span>1С:ЗУП</span><i>·</i><span>ЭДО</span><i>·</i><span>КЭДО</span><i>·</i><span>Due&nbsp;Diligence</span><i>·</i><span>Нейросети</span><i>·</i></span>
+    </div>
+  </div>
+
+  <!-- 3. ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="sec-head" data-reveal="line" aria-hidden="true"><span class="sec-head__num">01</span><span class="sec-head__line"></span></div>
+
+      <div class="about__grid">
+        <figure class="about__photo" data-clip>
+          <picture class="about__pic" data-parallax="-0.08">
+            <source srcset="assets/portrait.webp?v=3" type="image/webp">
+            <img src="assets/portrait.jpg?v=3" width="800" height="920" alt="Марина, главный бухгалтер" loading="lazy" decoding="async">
+          </picture>
+        </figure>
+
+        <div class="about__text">
+          <h2 class="h2" data-reveal="mask">Обо мне</h2>
+          <p class="about__lead" data-reveal>Опыт работы главным бухгалтером&nbsp;— более 15&nbsp;лет: от&nbsp;первички до&nbsp;сдачи отчётности. На&nbsp;последнем месте работы около 6&nbsp;лет была главным бухгалтером в&nbsp;<span class="nobr">IT-компании</span> ООО «ФИТМОСТ», которая с&nbsp;2025&nbsp;года выросла до&nbsp;среднего бизнеса: прошли вместе восстановление учета, несколько Due&nbsp;Diligence, автоматизаций, применение налоговых льгот и&nbsp;не&nbsp;одну смену законодательства.</p>
+          <p data-reveal style="--d:80ms">Могу вести учёт целиком или отдельный участок и&nbsp;работать в&nbsp;команде: в&nbsp;подчинении были заместитель и&nbsp;помощники, обучала новичков. Для&nbsp;руководителя готовлю понятную аналитику по&nbsp;данным учёта. Опыт в&nbsp;ООО и&nbsp;ИП, в&nbsp;сферах IT и&nbsp;разработки ПО, услуг и&nbsp;торговли.</p>
+          <p data-reveal style="--d:160ms">Мне нравится автоматизировать, структурировать, ускорять и&nbsp;«наводить порядок» в&nbsp;учете и&nbsp;рабочих задачах. В&nbsp;последние годы увлекаюсь изучением, как&nbsp;нейросети могут помочь бухгалтеру в&nbsp;работе, от&nbsp;создания сложных таблиц до&nbsp;примеров, описанных в&nbsp;разделе с&nbsp;кейсами. Когда берусь за&nbsp;задачу, отношусь к&nbsp;ней ответственно и&nbsp;довожу до&nbsp;результата в&nbsp;срок&nbsp;— иначе не&nbsp;умею работать.</p>
+        </div>
+      </div>
+
+      <ul class="stats">
+        <li class="stat" data-reveal style="--d:0ms"><span class="stat__num"><span data-count>15</span><span class="stat__plus">+</span></span> <span class="stat__label">лет главным бухгалтером</span></li>
+        <li class="stat" data-reveal style="--d:90ms"><span class="stat__num"><span data-count>3</span></span> <span class="stat__label">Due&nbsp;Diligence</span></li>
+        <li class="stat" data-reveal style="--d:180ms"><span class="stat__num"><span data-count>2 500</span></span> <span class="stat__label">актов/мес. без&nbsp;ручного ввода</span></li>
+        <li class="stat" data-reveal style="--d:270ms"><span class="stat__label">годовая сверка</span> <span class="stat__num"><span data-count>4 200</span></span> <span class="stat__label">контрагентов</span></li>
+        <li class="stat stat--pill" data-reveal style="--d:360ms"><span class="stat__pill"><span class="stat__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z"/><path data-draw d="M19 15v4"/><path data-draw d="M21 17h-4"/></svg></span>Использую нейросети</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4. EXPERIENCE -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="sec-head" data-reveal="line" aria-hidden="true"><span class="sec-head__num">02</span><span class="sec-head__line"></span></div>
+      <h2 class="h2" data-reveal="mask">Опыт работы</h2>
+
+      <div class="accs">
+        <details class="acc" data-acc data-reveal>
+          <summary class="acc__sum"><span class="acc__num" aria-hidden="true">01</span><span class="acc__title">Последнее место работы: ФИТМОСТ&nbsp;<span class="xp__meta">· <span class="nobr">2020–2026</span></span></span><span class="acc__plus" aria-hidden="true"></span></summary>
+          <div class="acc__body">
+            <div class="acc__inner">
+              <p class="xp__role">ООО «ФИТМОСТ», главный бухгалтер&nbsp;<span class="xp__meta">· июль 2020&nbsp;— май 2026</span></p>
+              <div class="xp__cols">
+              <div class="xp__col">
+              <p><span class="nobr">IT-компания</span>: сервис записи на&nbsp;<span class="nobr">спортивно-оздоровительные</span> услуги партнёров (B2B и&nbsp;B2C) и&nbsp;собственная разработка ПО&nbsp;— сайт и&nbsp;мобильные приложения. В&nbsp;2025&nbsp;году компания перешла из&nbsp;малого бизнеса в&nbsp;средний.</p>
+
+              <h3 class="xp__h">Что&nbsp;вела</h3>
+              <p>Бухгалтерский и&nbsp;налоговый учёт двух юридических лиц и&nbsp;ИП:</p>
+              <ul class="dash">
+                <li>основное юрлицо&nbsp;— участник ИНТЦ «Воробьёвы горы» (освобождение от&nbsp;НДС и&nbsp;налога на&nbsp;прибыль, до&nbsp;2022&nbsp;года&nbsp;— УСН «доходы минус расходы»), льготы по&nbsp;страховым взносам для&nbsp;<span class="nobr">IT-компаний</span>; в&nbsp;2025&nbsp;году&nbsp;— 120&nbsp;сотрудников, 2&nbsp;500&nbsp;приходов в&nbsp;месяц (от&nbsp;партнёров), годовая сверка 4&nbsp;200&nbsp;контрагентов по&nbsp;итогам 2025&nbsp;года;</li>
+                <li>второе юрлицо&nbsp;— участник Сколково (с&nbsp;2025&nbsp;года деятельность без&nbsp;выручки: направление приостановлено, ранее&nbsp;— до&nbsp;10&nbsp;сотрудников);</li>
+                <li>ИП на&nbsp;УСН&nbsp;6%&nbsp;— небольшая выручка, рекламная деятельность (<span class="nobr">Telegram-блог</span>).</li>
+              </ul>
+              <p>В&nbsp;подчинении: заместитель главного бухгалтера (участок реализации, с&nbsp;2023&nbsp;года&nbsp;— расчёт зарплаты и&nbsp;кадровый учёт) и&nbsp;помощник по&nbsp;участку оплаты (с&nbsp;конца 2025&nbsp;года).</p>
+
+              </div>
+              <div class="xp__col">
+              <h3 class="xp__h">Что&nbsp;сделано с&nbsp;2020&nbsp;года</h3>
+              <ul class="dash">
+                <li>организовала автоматическое создание и&nbsp;заполнение пакета документов для&nbsp;приема сотрудника в&nbsp;1С на&nbsp;основании введенных личных данных (обработка&nbsp;1С);</li>
+                <li>организовала автоматизацию загрузки ежемесячных отчётов партнёров (2&nbsp;500&nbsp;штук в&nbsp;месяц) из&nbsp;CRM в&nbsp;1С и&nbsp;автоматизацию оплат партнёрам из&nbsp;1С в&nbsp;банк (обработка&nbsp;1С);</li>
+                <li>восстановила актуальность учёта на&nbsp;начало 2021&nbsp;года;</li>
+                <li>перевела учёт с&nbsp;Контур.Бухгалтерии на&nbsp;1С:Бухгалтерию и&nbsp;1С:ЗУП к&nbsp;началу 2021&nbsp;года;</li>
+                <li>перевела компанию на&nbsp;ЭДО: Диадок для&nbsp;ИП и&nbsp;ООО, Консоль и&nbsp;Сайн для&nbsp;самозанятых;</li>
+                <li>в&nbsp;2024&nbsp;году перевела компанию на&nbsp;кадровый ЭДО (Контур.КЭДО)&nbsp;— 70&nbsp;сотрудников на&nbsp;тот момент;</li>
+                <li>успешно прошла три инвесторских аудита (Due&nbsp;Diligence): самостоятельно готовила бухгалтерскую и&nbsp;налоговую информацию;</li>
+                <li>успешно прошла выездную проверку СФР по&nbsp;взносам на&nbsp;страхование от&nbsp;несчастных случаев;</li>
+                <li>создала электронный реестр отсутствующих закрывающих документов, по&nbsp;которому коллеги собирают долги;</li>
+                <li>организовала электронное хранение сканов документов на&nbsp;сервере компании с&nbsp;разграничением доступа по&nbsp;пользователям;</li>
+                <li>поставила на&nbsp;учёт НМА: сайт, мобильные приложения, товарные знаки, видеокурсы&nbsp;— с&nbsp;оформлением ТЗ, приказов и&nbsp;отчётов о&nbsp;создании;</li>
+                <li>сделала обучающий <span class="nobr">чат-бот</span> в&nbsp;Telegram для&nbsp;коллег: отвечает на&nbsp;часто задаваемые вопросы и&nbsp;даёт ссылки&nbsp;— про&nbsp;отпуска, командировки, расчёт зарплаты, закрывающие документы, работу в&nbsp;ЭДО и&nbsp;КЭДО;</li>
+                <li>применяла нейросети в&nbsp;задачах учёта, например: помощь в&nbsp;составлении сложных формул в&nbsp;таблицах по&nbsp;дебиторской и&nbsp;кредиторской задолженности и&nbsp;в&nbsp;реестре отсутствующих закрывающих документов, творческая часть годового отчёта для&nbsp;Сколково, описание «простым языком» информации для&nbsp;сотрудников.</li>
+              </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <details class="acc" data-acc data-reveal style="--d:90ms">
+          <summary class="acc__sum"><span class="acc__num" aria-hidden="true">02</span><span class="acc__title">Остальные места работы&nbsp;<span class="xp__meta">· 2007&nbsp;— 2020</span></span><span class="acc__plus" aria-hidden="true"></span></summary>
+          <div class="acc__body">
+            <div class="acc__inner">
+              <h3 class="xp__h">ООО «Альтаир Недвижимость», главный бухгалтер&nbsp;<span class="xp__meta">· март 2018&nbsp;— февраль 2020</span></h3>
+              <p>Управляющая и&nbsp;инвестиционная компания: недвижимость, ценные бумаги, займы. Учёт пяти небольших компаний холдинга (4&nbsp;ООО и&nbsp;1&nbsp;АО, около 20&nbsp;сотрудников) на&nbsp;ОСНО и&nbsp;УСН&nbsp;6% и&nbsp;15%.</p>
+              <ul class="dash">
+                <li><span class="nobr">купля-продажа</span> и&nbsp;аренда недвижимости, договоры цессии, ценные бумаги: акции, облигации, векселя;</li>
+                <li>займы от&nbsp;иностранных компаний в&nbsp;рублях и&nbsp;долларах: курсовые разницы, валютный контроль, валютные операции;</li>
+                <li>переход с&nbsp;ОСНО на&nbsp;УСН с&nbsp;начала года и&nbsp;с&nbsp;УСН на&nbsp;ОСНО в&nbsp;середине года;</li>
+                <li>ежемесячные отчёты для&nbsp;руководителя о&nbsp;доходах и&nbsp;расходах, активах и&nbsp;пассивах, план на&nbsp;квартал и&nbsp;год;</li>
+                <li>ответы на&nbsp;требования ИФНС: убытки, дивиденды, доходы по&nbsp;займам иностранных компаний.</li>
+              </ul>
+
+              <h3 class="xp__h"><span class="nobr">Горизонт-Комплект</span>, заместитель главного бухгалтера с&nbsp;функциями главного&nbsp;<span class="xp__meta">· март 2012&nbsp;— март 2018</span></h3>
+              <p>Полное ведение бухгалтерского и&nbsp;налогового учёта нескольких организаций и&nbsp;ИП на&nbsp;ОСНО и&nbsp;УСН: оптовая торговля и&nbsp;услуги. Руководила двумя помощниками, обучала новичков и&nbsp;стажёров. Ушла в&nbsp;связи с&nbsp;закрытием компании.</p>
+
+              <h3 class="xp__h">Сеть магазинов «Новый книжный» / «<span class="nobr">Читай-город</span>»&nbsp;<span class="xp__meta">· 2007&nbsp;— 2011</span></h3>
+              <p>Путь от&nbsp;помощника аудитора (помощь аудитору в&nbsp;проведении внутреннего аудита) до&nbsp;заместителя главного бухгалтера с&nbsp;функциями главного: розничная сеть на&nbsp;ОСНО с&nbsp;семью московскими магазинами и&nbsp;пятью обособленными подразделениями в&nbsp;регионах.</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="acc" data-acc data-reveal style="--d:180ms">
+          <summary class="acc__sum"><span class="acc__num" aria-hidden="true">03</span><span class="acc__title">Образование</span><span class="acc__plus" aria-hidden="true"></span></summary>
+          <div class="acc__body">
+            <div class="acc__inner">
+              <ul class="dash">
+                <li>Московская <span class="nobr">финансово-промышленная</span> академия: «Финансы и&nbsp;кредит», экономист (2011);</li>
+                <li>Московская <span class="nobr">финансово-промышленная</span> академия: «Менеджмент», менеджер по&nbsp;управлению проектами (2012);</li>
+                <li>Московский государственный колледж книжного бизнеса и&nbsp;информационных технологий: «Экономика и&nbsp;бухгалтерский учёт», бухгалтер, красный диплом (2007).</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. SERVICES -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="sec-head" data-reveal="line" aria-hidden="true"><span class="sec-head__num">03</span><span class="sec-head__line"></span></div>
+      <h2 class="h2" data-reveal="mask">Чем могу помочь: от&nbsp;первички до&nbsp;отчётности</h2>
+
+      <div class="svcs">
+        <details class="svc" data-reveal data-acc style="--d:0ms">
+          <summary class="svc__row">
+            <span class="svc__num" aria-hidden="true">01</span>
+            <span class="svc__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path data-draw d="M14 2v5h5"/><path data-draw d="M9 12h6"/><path data-draw d="M9 16h6"/></svg></span>
+            <span class="svc__title" role="heading" aria-level="3">Первичка</span>
+            <span class="svc__tag">с&nbsp;неё всё начинается</span>
+            <span class="svc__plus" aria-hidden="true"></span>
+          </summary>
+          <div class="svc__body">
+            <ul class="dash">
+              <li>Разбираюсь в&nbsp;первичных документах: проверяю, нахожу расхождения, собираю недостающее. И&nbsp;при&nbsp;этом мне нравится автоматизировать, структурировать, ускорять и&nbsp;«наводить порядок» в&nbsp;учете и&nbsp;рабочих задачах.</li>
+              <li>Работаю через ЭДО: Диадок, Сайн, Консоль.</li>
+              <li>Веду реестр отсутствующих закрывающих документов для&nbsp;коллег.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="svc" data-reveal data-acc style="--d:40ms">
+          <summary class="svc__row">
+            <span class="svc__num" aria-hidden="true">02</span>
+            <span class="svc__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"/><path data-draw d="M8 7h8"/><path data-draw d="M8 11h5"/></svg></span>
+            <span class="svc__title" role="heading" aria-level="3">Бухгалтерский и&nbsp;налоговый учёт</span>
+            <span class="svc__tag">ОСНО · УСН</span>
+            <span class="svc__plus" aria-hidden="true"></span>
+          </summary>
+          <div class="svc__body">
+            <ul class="dash">
+              <li>Опыт полного ведения бухгалтерского и&nbsp;налогового учета в&nbsp;ООО и&nbsp;ИП.</li>
+              <li>Работаю с&nbsp;разными налоговыми режимами: ОСНО (НДС, налог на&nbsp;прибыль), УСН (6% и&nbsp;15%), льготы <span class="nobr">IT-компаний</span> (Сколково, ИНТЦ «Воробьёвы горы»).</li>
+              <li>Основные средства, НМА, материалы, авансовые отчеты, займы.</li>
+              <li>Учетная политика.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="svc" data-reveal data-acc style="--d:0ms">
+          <summary class="svc__row">
+            <span class="svc__num" aria-hidden="true">03</span>
+            <span class="svc__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path data-draw d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></svg></span>
+            <span class="svc__title" role="heading" aria-level="3">Зарплата и&nbsp;кадры</span>
+            <span class="svc__tag">1С:ЗУП и&nbsp;КЭДО</span>
+            <span class="svc__plus" aria-hidden="true"></span>
+          </summary>
+          <div class="svc__body">
+            <ul class="dash">
+              <li>Расчёт зарплаты, отпуска, командировки, подотчётные лица.</li>
+              <li>Резервы на&nbsp;отпуск.</li>
+              <li>Кадровый учёт и&nbsp;ЛНА.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="svc" data-reveal data-acc style="--d:40ms">
+          <summary class="svc__row">
+            <span class="svc__num" aria-hidden="true">04</span>
+            <span class="svc__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="m22 2-7 20-4-9-9-4Z"/><path data-draw d="M22 2 11 13"/></svg></span>
+            <span class="svc__title" role="heading" aria-level="3">Отчётность и&nbsp;требования</span>
+            <span class="svc__tag">ИФНС · СФР · статистика</span>
+            <span class="svc__plus" aria-hidden="true"></span>
+          </summary>
+          <div class="svc__body">
+            <ul class="dash">
+              <li>Вся отчётность в&nbsp;налоговую, СФР и&nbsp;статистику.</li>
+              <li>Ответы на&nbsp;требования и&nbsp;письма ИФНС: расхождения по&nbsp;НДС, пояснения, ответы на&nbsp;запросы камеральных проверок.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="svc" data-reveal data-acc style="--d:0ms">
+          <summary class="svc__row">
+            <span class="svc__num" aria-hidden="true">05</span>
+            <span class="svc__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1Z"/><path data-draw d="m9 12 2 2 4-4"/></svg></span>
+            <span class="svc__title" role="heading" aria-level="3">Проверки и&nbsp;Due&nbsp;Diligence</span>
+            <span class="svc__tag">3&nbsp;Due&nbsp;Diligence</span>
+            <span class="svc__plus" aria-hidden="true"></span>
+          </summary>
+          <div class="svc__body">
+            <ul class="dash">
+              <li>Успешно прошла три инвесторских аудита (Due&nbsp;Diligence): самостоятельно готовила бухгалтерскую и&nbsp;налоговую информацию.</li>
+              <li>Успешно прошла выездную проверку СФР по&nbsp;взносам на&nbsp;страхование от&nbsp;несчастных случаев, отвечала на&nbsp;запросы ИФНС по&nbsp;камеральным проверкам.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="svc" data-reveal data-acc style="--d:40ms">
+          <summary class="svc__row">
+            <span class="svc__num" aria-hidden="true">06</span>
+            <span class="svc__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle data-draw cx="9" cy="7" r="4"/><path data-draw d="M22 21v-2a4 4 0 0 0-3-3.87"/><path data-draw d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+            <span class="svc__title" role="heading" aria-level="3">Команда и&nbsp;руководство</span>
+            <span class="svc__tag">управление отделом</span>
+            <span class="svc__plus" aria-hidden="true"></span>
+          </summary>
+          <div class="svc__body">
+            <ul class="dash">
+              <li>Руководила заместителем и&nbsp;помощниками, по&nbsp;необходимости проводила обучение коллег.</li>
+              <li>Для&nbsp;руководителя готовлю понятную аналитику по&nbsp;запрошенным данным из&nbsp;учета.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="svc" data-reveal data-acc style="--d:0ms">
+          <summary class="svc__row">
+            <span class="svc__num" aria-hidden="true">07</span>
+            <span class="svc__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path data-draw d="M21 3v5h-5"/><path data-draw d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path data-draw d="M8 16H3v5"/></svg></span>
+            <span class="svc__title" role="heading" aria-level="3">Внедрения и&nbsp;автоматизация</span>
+            <span class="svc__tag">ускорение и&nbsp;оптимизация</span>
+            <span class="svc__plus" aria-hidden="true"></span>
+          </summary>
+          <div class="svc__body">
+            <ul class="dash">
+              <li>Переход с&nbsp;другой бухгалтерской программы на&nbsp;1С:Бухгалтерию и&nbsp;ЗУП.</li>
+              <li>Внедрение КЭДО и&nbsp;ЭДО: Диадок, Сайн, Консоль.</li>
+              <li>Автоматическое создание и&nbsp;заполнение пакета документов для&nbsp;приема сотрудника в&nbsp;1С на&nbsp;основании введенных личных данных (обработка&nbsp;1С).</li>
+              <li>На&nbsp;прошлом месте работы организовала автоматизацию загрузки ежемесячных отчётов партнёров (2&nbsp;500&nbsp;штук в&nbsp;месяц) из&nbsp;CRM в&nbsp;1С и&nbsp;автоматизацию оплат партнёрам из&nbsp;1С в&nbsp;банк (обработка&nbsp;1С).</li>
+              <li>Сделала обучающий <span class="nobr">чат-бот</span> в&nbsp;Telegram для&nbsp;коллег: отвечает на&nbsp;часто задаваемые вопросы от&nbsp;коллег по&nbsp;бухгалтерии и&nbsp;даёт ссылки на&nbsp;таблицы и&nbsp;папки.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="svc" data-reveal data-acc style="--d:40ms">
+          <summary class="svc__row">
+            <span class="svc__num" aria-hidden="true">08</span>
+            <span class="svc__ic svc__ic--warm" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9Z"/><path data-draw d="M19 15v4"/><path data-draw d="M21 17h-4"/></svg></span>
+            <span class="svc__title" role="heading" aria-level="3">Нейросети</span>
+            <span class="svc__tag">ускорение и&nbsp;усиление</span>
+            <span class="svc__plus" aria-hidden="true"></span>
+          </summary>
+          <div class="svc__body">
+            <ul class="dash">
+              <li>Использую нейросети для&nbsp;создания таблиц, пояснений «простым языком» и&nbsp;сайтов с&nbsp;наглядной аналитикой.</li>
+              <li>Подключила тестовую базу&nbsp;1С к&nbsp;<span class="nobr">ИИ-агенту</span> для&nbsp;получения данных (например, для&nbsp;организации сбора закрывающих документов).</li>
+              <li>Нейросеть использую как&nbsp;обезличенный инструмент, результат проверяю, данные компании во внешние сервисы не&nbsp;передаю.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. CASES -->
+  <section class="cases-section" id="cases">
+    <div class="cases">
+      <div class="cases__sticky">
+        <div class="container cases__head">
+          <div class="sec-head" data-reveal="line" aria-hidden="true"><span class="sec-head__num">04</span><span class="sec-head__line"></span></div>
+          <h2 class="h2" data-reveal="mask">Кейсы: автоматизация и&nbsp;нейросети</h2>
+        </div>
+
+        <div class="cases__viewport">
+          <div class="cases__track">
+            <article class="case" data-reveal style="--d:0ms">
+              <div class="case__card" data-tilt>
+                <div class="case__top"><span class="case__num" aria-hidden="true">01</span><span class="case__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path data-draw d="M21 3v5h-5"/><path data-draw d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path data-draw d="M8 16H3v5"/></svg></span></div>
+                <h3 class="case__title">Загрузка задолженности партнёрам из&nbsp;CRM в&nbsp;1С без&nbsp;ручного ввода и&nbsp;её оплата</h3>
+                <p class="case__text">Организовала автоматизацию загрузки ежемесячных отчётов партнёров (2&nbsp;500&nbsp;штук в&nbsp;месяц) из&nbsp;CRM в&nbsp;1С и&nbsp;автоматизацию оплат партнёрам из&nbsp;1С в&nbsp;банк (обработка&nbsp;1С).</p>
+              </div>
+            </article>
+
+            <article class="case" data-reveal style="--d:90ms">
+              <div class="case__card" data-tilt>
+                <div class="case__top"><span class="case__num" aria-hidden="true">02</span><span class="case__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path data-draw d="M14 2v5h5"/><path data-draw d="m9 15 2 2 4-4"/></svg></span></div>
+                <h3 class="case__title">КЭДО, ЭДО и&nbsp;пакет документов для&nbsp;приема сотрудника в&nbsp;1С</h3>
+                <p class="case__text">Перевела компанию на&nbsp;КЭДО и&nbsp;ЭДО (Диадок для&nbsp;ИП и&nbsp;ООО, Консоль и&nbsp;Сайн для&nbsp;самозанятых). Организовала автоматическое создание и&nbsp;заполнение пакета документов для&nbsp;приема сотрудника в&nbsp;1С на&nbsp;основании введенных личных данных (обработка&nbsp;1С).</p>
+              </div>
+            </article>
+
+            <article class="case" data-reveal style="--d:0ms">
+              <div class="case__card" data-tilt>
+                <div class="case__top"><span class="case__num" aria-hidden="true">03</span><span class="case__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect data-draw width="18" height="18" x="3" y="3" rx="2"/><path data-draw d="M3 9h18"/><path data-draw d="M3 15h18"/><path data-draw d="M9 3v18"/><path data-draw d="M15 3v18"/></svg></span></div>
+                <h3 class="case__title">Сверка задолженности и&nbsp;реестр закрывающих</h3>
+                <p class="case__text">Проверка актуальности дебиторской и&nbsp;кредиторской задолженности по&nbsp;итогам года (например, по&nbsp;итогам 2025&nbsp;года&nbsp;— 4&nbsp;200&nbsp;контрагентов) и&nbsp;создание реестра отсутствующих закрывающих документов для&nbsp;коллег. Для&nbsp;ускорения этой работы создавала в&nbsp;Excel сложные формулы с&nbsp;помощью разбора задачи в&nbsp;нейросети.</p>
+              </div>
+            </article>
+
+            <article class="case" data-reveal style="--d:90ms">
+              <div class="case__card" data-tilt>
+                <div class="case__top"><span class="case__num" aria-hidden="true">04</span><span class="case__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></span></div>
+                <h3 class="case__title"><span class="nobr">Чат-бот</span> в&nbsp;Telegram «Бухгалтер 24/7»</h3>
+                <p class="case__text">Сделала обучающий <span class="nobr">чат-бот</span> в&nbsp;Telegram для&nbsp;коллег: отвечает на&nbsp;часто задаваемые вопросы по&nbsp;бухгалтерии (отпуска, командировки, зарплата, закрывающие документы, ЭДО) и&nbsp;даёт ссылки на&nbsp;таблицы и&nbsp;папки. А&nbsp;также сделала обучающий курс на&nbsp;Stepik для&nbsp;бухгалтеров: как&nbsp;сделать такого <span class="nobr">чат-бота</span>.</p>
+                <a class="case__link" href="https://stepik.org/course/256664/promo?referral=WzI1NjY2NCwxMTMzMTAwNDczLDE3ODIyOTc5ODUuODc0ODVd%3A1wcL7h%3A1njXVO4zltn_Mwl3Gec0pjJ9vZw" target="_blank" rel="noopener" aria-label="Посмотреть видео на Stepik (откроется в новой вкладке)"><span class="case__link-t">Посмотреть видео на&nbsp;Stepik</span> <span class="case__arrow">→</span></a>
+              </div>
+            </article>
+
+            <article class="case" data-reveal style="--d:0ms">
+              <div class="case__card" data-tilt>
+                <div class="case__top"><span class="case__num" aria-hidden="true">05</span><span class="case__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M3 3v18h18"/><path data-draw d="M7 15l4-4 3 3 5-6"/></svg></span></div>
+                <h3 class="case__title">Сайт «УСН и&nbsp;НДС 2026»</h3>
+                <p class="case__text">Обучающий сайт для&nbsp;малого бизнеса про&nbsp;УСН и&nbsp;НДС: информация и&nbsp;калькулятор, который показывает, сколько налогов и&nbsp;когда их нужно оплатить, с&nbsp;какого месяца появляется обязанность платить НДС. Расчёт налогов и&nbsp;платёжный календарь можно сохранить в&nbsp;Excel.</p>
+                <a class="case__link" href="https://neurobuh-collab.github.io/UsnNdsMP2026/" target="_blank" rel="noopener" aria-label="Открыть: Сайт «УСН и НДС 2026» (откроется в новой вкладке)"><span class="case__link-t">Открыть</span> <span class="case__arrow">→</span></a>
+              </div>
+            </article>
+
+            <article class="case" data-reveal style="--d:90ms">
+              <div class="case__card" data-tilt>
+                <div class="case__top"><span class="case__num" aria-hidden="true">06</span><span class="case__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect data-draw width="16" height="20" x="4" y="2" rx="2"/><line data-draw x1="8" x2="16" y1="6" y2="6"/><line x1="8" x2="8" y1="14" y2="14"/><line x1="12" x2="12" y1="14" y2="14"/><line x1="16" x2="16" y1="14" y2="14"/><line x1="8" x2="8" y1="18" y2="18"/><line x1="12" x2="12" y1="18" y2="18"/><line x1="16" x2="16" y1="18" y2="18"/></svg></span></div>
+                <h3 class="case__title">Калькулятор вычетов по&nbsp;НДФЛ</h3>
+                <p class="case__text">Обучающий <span class="nobr">сайт-калькулятор</span>: считает, сколько НДФЛ можно вернуть за&nbsp;<span class="nobr">2023–2026</span>&nbsp;годы по&nbsp;ИИС, социальным и&nbsp;имущественным вычетам, и&nbsp;даёт советы.</p>
+                <a class="case__link" href="https://neurobuh-collab.github.io/ndfl-gid-handoff/" target="_blank" rel="noopener" aria-label="Открыть: Калькулятор вычетов по НДФЛ (откроется в новой вкладке)"><span class="case__link-t">Открыть</span> <span class="case__arrow">→</span></a>
+              </div>
+            </article>
+
+            <article class="case" data-reveal style="--d:0ms">
+              <div class="case__card" data-tilt>
+                <div class="case__top"><span class="case__num" aria-hidden="true">07</span><span class="case__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path data-draw d="M12 20V10"/><path data-draw d="M18 20V4"/><path data-draw d="M6 20v-4"/></svg></span></div>
+                <h3 class="case__title">Управленческая отчётность по&nbsp;данным выписки</h3>
+                <p class="case__text">Пример возможного применения нейросети для&nbsp;предоставления аналитики руководству: управленческой отчётности (P&amp;L, ОДДС, анализ) по&nbsp;данным банковской выписки.</p>
+                <a class="case__link" href="https://neurobuh-collab.github.io/UUpoVypiske/" target="_blank" rel="noopener" aria-label="Открыть: Управленческая отчётность по данным выписки (откроется в новой вкладке)"><span class="case__link-t">Открыть</span> <span class="case__arrow">→</span></a>
+              </div>
+            </article>
+
+            <article class="case" data-reveal style="--d:90ms">
+              <div class="case__card" data-tilt>
+                <div class="case__top"><span class="case__num" aria-hidden="true">08</span><span class="case__ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><ellipse data-draw cx="12" cy="5" rx="9" ry="3"/><path data-draw d="M3 5v14a9 3 0 0 0 18 0V5"/><path data-draw d="M3 12a9 3 0 0 0 18 0"/></svg></span></div>
+                <h3 class="case__title">Подключение тестовой базы&nbsp;1С к&nbsp;<span class="nobr">ИИ-агенту</span></h3>
+                <p class="case__text">Подключила тестовую базу&nbsp;1С к&nbsp;<span class="nobr">ИИ-агенту</span> для&nbsp;получения данных из&nbsp;базы (например, для&nbsp;организации сбора закрывающих документов). В&nbsp;планах&nbsp;— протестировать создание первичных документов в&nbsp;1С с&nbsp;помощью ИИ.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="container cases__foot" aria-hidden="true">
+          <span class="cases__progress"><span class="cases__progress-bar"></span></span>
+          <span class="cases__count"><span class="cases__current">01</span> / 08</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="cases__note" data-reveal>Этот сайт я тоже сделала вместе с&nbsp;нейросетью Claude.</p>
+    </div>
+  </section>
+
+  <!-- 7. REVIEWS (тёмная) -->
+  <section class="reviews" id="reviews" data-expand>
+    <div class="container reviews__inner">
+      <div class="sec-head sec-head--dark" data-reveal="line" aria-hidden="true"><span class="sec-head__num">05</span><span class="sec-head__line"></span></div>
+      <div class="reviews__head">
+        <h2 class="h2" data-reveal="mask">Отзывы коллег</h2>
+        <p class="reviews__lead" data-reveal>Прощальные сообщения коллег с&nbsp;последнего места работы (ФИТМОСТ, май 2026)</p>
+      </div>
+
+      <figure class="review-main">
+        <svg class="review-main__quote" viewBox="0 0 132 92" fill="none" aria-hidden="true" focusable="false"><path data-draw d="M52 8C26 18 10 38 10 60c0 14 9 24 21 24 11 0 19-8 19-18 0-11-8-18-18-18-3 0-6 1-8 2 3-17 15-30 32-38" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path data-draw d="M120 8C94 18 78 38 78 60c0 14 9 24 21 24 11 0 19-8 19-18 0-11-8-18-18-18-3 0-6 1-8 2 3-17 15-30 32-38" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <blockquote class="review-main__text" data-scrub-words>Марина, спасибо тебе большое за&nbsp;эти много лет! За&nbsp;то, что&nbsp;пришла в&nbsp;один из&nbsp;самых непростых периодов и&nbsp;столько всего проходила с&nbsp;нами. Часто, когда думаю про&nbsp;то, какой профиль должен быть у&nbsp;человека, каких искать в&nbsp;ФИТМОСТ, то вспоминаю про&nbsp;тебя как&nbsp;бенчмарк&nbsp;— живого, настоящего, влюблённого в&nbsp;свою работу и&nbsp;в&nbsp;то же самое время болеющего в&nbsp;первую очередь за&nbsp;общий результат и&nbsp;цели.</blockquote>
+        <figcaption class="review-main__author" data-reveal>Генеральный директор и&nbsp;основатель</figcaption>
+      </figure>
+
+      <div class="reviews__grid">
+        <figure class="review" data-reveal style="--d:0ms">
+          <blockquote class="review__text">Марина! Не&nbsp;просто говорить тебе до&nbsp;свидания, но твой вклад и&nbsp;твой труд точно будут присутствовать каждый день! Спасибо тебе большое за&nbsp;время, за&nbsp;вовлечение и&nbsp;огромный вклад! … С&nbsp;тобой было удивительно просто и&nbsp;классно работать!</blockquote>
+          <figcaption class="review__author">Сооснователь</figcaption>
+        </figure>
+
+        <figure class="review" data-reveal style="--d:120ms">
+          <blockquote class="review__text">Когда я пришла в&nbsp;ФИТМОСТ и&nbsp;<span class="nobr">кто-то</span> отправлял в&nbsp;бухгалтерию, я шла обычно к&nbsp;заместителю главного бухгалтера, потому что&nbsp;думала, что&nbsp;главбух наверное строгий и&nbsp;злой. А&nbsp;потом, когда стала больше спрашивать и&nbsp;особенно когда познакомилась лично, поняла, что&nbsp;ты очень хороший человек. Спасибо тебе за&nbsp;твою работу, за&nbsp;помощь и&nbsp;ответы на&nbsp;все вопросы!</blockquote>
+          <figcaption class="review__author">Руководитель отдела подключения партнёров</figcaption>
+        </figure>
+
+        <figure class="review" data-reveal style="--d:0ms">
+          <blockquote class="review__text">Мне кажется, ты один из&nbsp;самых светлых и&nbsp;добрых людей, которых я встречала. … Спасибо тебе за&nbsp;помощь, презентации про&nbsp;финансы, готовность идти навстречу и&nbsp;доброту!</blockquote>
+          <figcaption class="review__author">Директор по&nbsp;продукту</figcaption>
+        </figure>
+
+        <figure class="review" data-reveal style="--d:120ms">
+          <blockquote class="review__text">Ты ходячий учитель по&nbsp;финансам, была очень рада с&nbsp;тобой работать!</blockquote>
+          <figcaption class="review__author">Менеджер <span class="nobr">B2B-продаж</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. CONTACTS -->
+  <section class="contacts" id="contacts">
+    <div class="contacts__media" aria-hidden="true">
+      <video class="contacts__video" muted loop playsinline preload="none" data-src="assets/hero.mp4" width="1280" height="720"></video>
+    </div>
+    <div class="contacts__veil" aria-hidden="true"></div>
+
+    <div class="container contacts__inner">
+      <div class="sec-head" data-reveal="line" aria-hidden="true"><span class="sec-head__num">06</span><span class="sec-head__line"></span></div>
+      <h2 class="contacts__title" data-split>Контакты</h2>
+
+      <ul class="contacts__list">
+        <li class="contact" data-reveal style="--d:0ms">
+          <span class="contact__label">Telegram</span>
+          <a class="contact__value" href="https://t.me/mikachat" target="_blank" rel="noopener" data-magnetic aria-label="Telegram @mikachat (откроется в новой вкладке)"><span class="contact__text">@mikachat</span><svg class="contact__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+        </li>
+        <li class="contact" data-reveal style="--d:120ms">
+          <span class="contact__label"><span class="nobr">E-mail</span></span>
+          <a class="contact__value" href="mailto:neuro.buh@gmail.com" data-magnetic><span class="contact__text">neuro.buh@gmail.com</span><svg class="contact__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© Марина Чатыева · бухгалтер</span>
+    <a class="to-top" href="#top" aria-label="Наверх" data-magnetic><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg></a>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Марина",
+  "jobTitle": "Главный бухгалтер",
+  "description": "15+ лет опыта главного бухгалтера: бухгалтерский, налоговый и кадровый учёт от первички до сдачи отчётности.",
+  "sameAs": ["https://t.me/mikachat"]
+}
+</script>
+
+<script src="script.js?v=2" defer></script>
+</body>
+</html>
