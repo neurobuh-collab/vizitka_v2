@@ -767,14 +767,6 @@ a:hover .roll__b, a:focus-visible .roll__b { transform: none; }
 @media (min-width: 1024px) {
   .about__photo { position: sticky; top: calc(var(--hh) + 32px); }
 }
-.about__photo::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(200deg, rgba(255, 236, 205, .28) 0%, transparent 45%, rgba(28, 25, 21, .12) 100%);
-  mix-blend-mode: soft-light;
-}
 .about__pic {
   position: absolute;
   left: 0;
@@ -787,7 +779,6 @@ a:hover .roll__b, a:focus-visible .roll__b { transform: none; }
   height: 100%;
   object-fit: cover;
   object-position: 50% 30%;
-  filter: saturate(.8) sepia(.18) hue-rotate(-6deg);
 }
 .about__text { padding-top: clamp(0px, 2vw, 24px); }
 .about__text .h2 { margin-bottom: clamp(28px, 3.5vw, 52px); }
